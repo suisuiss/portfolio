@@ -7,7 +7,8 @@ import {
     Toolbar,
     Typography
 } from "@mui/material";
-import { fontFamily } from '@mui/system';
+
+
 const StyledToolbar = styled(Toolbar)({
     display: "flex",
     justifyContent: "space-between",
@@ -33,6 +34,7 @@ export default function NavTab() {
     };
 
     return (
+        
         <Box sx={{ width: '100%' }}>
             <StyledToolbar>
                 <Typography variant="h8" sx={{ display: { xs: "none", sm: "block" } } } >
@@ -42,7 +44,7 @@ export default function NavTab() {
                     Thanawan 
                 </Typography>
                 <Tabs value={value} onChange={handleChange}  textColor='pink' fontWeight='light'>
-                <LinkTab label="About Me" href="/drafts" />
+                <LinkTab label="About Me" href="#aboutme" />
                 <LinkTab label="Resume" href="/trash" />
                 <LinkTab label="Projects" href="/spam" />
             </Tabs>
