@@ -35,8 +35,11 @@ export default function NavTab() {
     return (
         <Box sx={{ width: '100%' }}>
             <StyledToolbar>
-                <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }} fontWeight='light'>
+                <Typography variant="h8" sx={{ display: { xs: "none", sm: "block" } } } >
                     Thanawan Panapongpaisan
+                </Typography>
+                <Typography variant="h8" sx={{ display: { xs: "block", sm: "none" } }} >
+                    Thanawan 
                 </Typography>
                 <Tabs value={value} onChange={handleChange}  textColor='pink' fontWeight='light'>
                 <LinkTab label="About Me" href="/drafts" />
