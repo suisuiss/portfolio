@@ -7,7 +7,7 @@ export const Home = () => {
     return (
         <div>
             <Navtab />
-            <Container sx={{ height: 50 }}></Container>
+            <Container sx={{ height: 70 }}></Container>
 
             <Aboutme />
 

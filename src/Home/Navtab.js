@@ -35,7 +35,7 @@ export default function NavTab() {
 
     return (
         
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', position: "fixed", backgroundColor: 'white' }} >
             <StyledToolbar>
                 <Typography variant="h8" sx={{ display: { xs: "none", sm: "block" } } } >
                     Thanawan Panapongpaisan
