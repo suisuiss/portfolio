@@ -40,14 +40,16 @@ function a11yProps(index) {
     };
 }
 
-export default function Resume() {
+function Resume() {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
 
-    return (<Box sx={{
+    return  <div id='resume'>
+   
+    <Box sx={{
         backgroundColor: '#FFE5E5', paddingTop: 5, paddingBottom: 10
     }} >
         <Typography variant="h6" sx={{ display: { xs: "block", sm: "none", fontWeight: "bold" } }}>RESUME</Typography>
@@ -243,10 +245,6 @@ export default function Resume() {
             </TabPanel>
         </Box>
     </Box>
-    );
+    </div>
 }
-
-
-
-
-
+export default Resume;

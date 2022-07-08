@@ -5,7 +5,7 @@ import Resume from '../resume/Resume';
 import Aboutme from './Aboutme';
 import Navtab from './Navtab';
 
-export const Home = () => {
+const Home = () => {
     return (
         <div>
             <Navtab />
@@ -19,3 +19,5 @@ export const Home = () => {
 
     )
 }
+
+export default Home;

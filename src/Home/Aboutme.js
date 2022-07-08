@@ -10,7 +10,7 @@ import {
 // });
 const Aboutme = () => {
     return (
-        <div>
+        <div id='aboutme'>
 
             <Box sx={{ display: "flex", justifyContent: "space-around" }}>
                 <Box sx={{ backgroundColor: '#FFE5E5', width: 400, height: 280 }}>

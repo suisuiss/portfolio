@@ -7,7 +7,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Typography from '@mui/material/Typography';
 import { Link } from '@mui/material';
-export default function AlertDialog() {
+export default function Project() {
     const [open1, setOpen1] = React.useState(false);
     const [open2, setOpen2] = React.useState(false);
     const [open3, setOpen3] = React.useState(false);
@@ -33,8 +33,8 @@ export default function AlertDialog() {
     };
 
     return (
-        <div>
-            <Typography variant="h6" sx={{ display: { xs: "block", sm: "block", fontWeight: "bold" }, paddingBottom: 5 }}>Projects</Typography>
+        <div id='project'>
+            <Typography variant="h6" sx={{ display: { xs: "block", sm: "block", fontWeight: "bold" }, paddingBottom: 5 }}>PROJECTS</Typography>
             <Button sx={{ width: 300, height: 300 }} variant="outlined" onClick={project1}>
                 E-commerce website for CSC105 Web
                 Application Development course (individual project)
