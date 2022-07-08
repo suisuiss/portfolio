@@ -34,20 +34,20 @@ export default function NavTab() {
     };
 
     return (
-        
+
         <Box sx={{ width: '100%', position: "fixed", backgroundColor: 'white' }} >
             <StyledToolbar>
-                <Typography variant="h8" sx={{ display: { xs: "none", sm: "block" } } } >
+                <Typography variant="h8" sx={{ display: { xs: "none", sm: "block" } }} >
                     Thanawan Panapongpaisan
                 </Typography>
                 <Typography variant="h8" sx={{ display: { xs: "block", sm: "none" } }} >
-                    Thanawan 
+                    Thanawan
                 </Typography>
-                <Tabs value={value} onChange={handleChange}  textColor='pink' fontWeight='light'>
-                <LinkTab label="About Me" href="#aboutme" />
-                <LinkTab label="Resume" href="/trash" />
-                <LinkTab label="Projects" href="/spam" />
-            </Tabs>
+                <Tabs value={value} onChange={handleChange} fontWeight='light'>
+                    <LinkTab label="About Me" href="#aboutme" />
+                    <LinkTab label="Resume" href="/trash" />
+                    <LinkTab label="Projects" href="/spam" />
+                </Tabs>
             </StyledToolbar>
         </Box>
     );
