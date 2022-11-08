@@ -28,7 +28,7 @@ const Aboutme = () => {
                         <Typography sx={{ fontSize: 14, display: { xs: "none", sm: "block", fontWeight: "light", paddingTop: 5 } }} >
                             My name is Thanawan Panapongpaisan. I am a 3rd year computer science (English Program) 
                             student at King Mongkut’s University of Technology Thonburi who loves challenging.
-                            I'm interested in frontend web development,software development, software project management, IT business, etc.
+                            I'm interested in frontend web development, software development, software project management, IT business, etc.
                             According to my strong passion and enthusiasm, I am ready to expand experiences, learn new things, work with other people as an intern.
                         </Typography></Box>
                 </Typography>
