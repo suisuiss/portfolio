@@ -111,7 +111,7 @@ function Resume() {
                             <br /><br />
                             August 2020 to present
                             <br /><br />
-                            GPA 3.48 (Year1 Semester2)
+                            GPAX 3.56 
                             <br /><br />
                             <Typography sx={{ display: { fontWeight: 550 } }}>Main Subject</Typography>
 
